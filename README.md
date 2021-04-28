@@ -12,7 +12,7 @@ You must have [Docker](https://www.docker.com/) installed in order to run python
 python_plot.py --xlabel xx --ylabel yy --title title --figsize_y 5 heatmap input/table_mtx.txt output/table_mtx_heatmap.pdf
 ```
 
-If you see any error message here, please make sure that you are using python3 environemnt and the dependent packages (os, sys, psutil, re, ssl, math, time, datetime, glob, ujson, shelve, numpy, matplotlib, seaborn, pandas, natsort, optparse, collections, itertools) were installed. Using an docker image significantly reduces the efforts to install these dependent packages; see [below] (###installing).
+If you see any error message here, please make sure that you are using python3 environemnt and the dependent packages (os, sys, psutil, re, ssl, math, time, datetime, glob, ujson, shelve, numpy, matplotlib, seaborn, pandas, natsort, optparse, collections, itertools) were installed. Using an docker image significantly reduces the efforts to install these dependent packages; see [below] (#installing).
 
 The output file is located at output/table_mtx_heatmap.pdf.
 
