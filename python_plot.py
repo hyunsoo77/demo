@@ -6,11 +6,13 @@
 # date last modified: 2017, Aug.
 #
 # input:
+#
 #   type_plot:
 #   fname_in:
 #   fname_out:
 #
 # options:
+#
 #   --x: x column name in df
 #   --y: y column name in df
 #   --h: hue column name in df
@@ -29,8 +31,12 @@
 #     
 # output:
 #
+#   a pdf file
+#
 # test:
-# git clone 
+#
+# git clone https://hub.docker.com/hkim/demo/
+# cd demo
 # python_plot.py --xlabel xx --ylabel yy --title title --figsize_y 5 heatmap table_mtx.txt table_mtx_heatmap.pdf
 # python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors table_row_colors.txt --fname_col_colors table_col_colors.txt clustermap table_mtx.txt table_mtx_clustermap.pdf
 # python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors table_row2_colors.txt --fname_col_colors table_col2_colors.txt clustermap table_mtx.txt table_mtx_clustermap.pdf
