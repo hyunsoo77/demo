@@ -1,7 +1,8 @@
+# Python_plot
 
-
-## Getting Started
 This repository is only for reviewing the examples of code encapsulation for reproducibility.
+
+Python_plot reads a tab-delimited file to generate a heatmap. This simple script will be encapsulated into a docker image. The docker image contains other dependent software including python3. Thus, python_plot.py inside this docker image can be executed without any software version issue.
 
 
 ### Prerequisites
@@ -27,14 +28,14 @@ acroread output/table_mtx_heatmap.pdf
 
 ### Installing
 
-The software is meant to be run as a Docker image and is [available on DockerHub] (https://hub.docker.com/hkim/demo/). The docker image can be built by the following commands:
+The software is meant to be run as a Docker image. The docker image can be built by the following commands:
 ```
 git clone https://hub.docker.com/hkim/demo/
 cd demo
 docker build . -t hyunsoo77/hkim:demo
 ```
 
-If you don't want to build docker image, you can download my image from docker hub:
+If you don't want to build docker image, you can download my image from DockerHub:
 ```
 docker pull hyunsoo77/hkim:demo
 ```
