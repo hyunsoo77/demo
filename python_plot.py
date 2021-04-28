@@ -37,9 +37,13 @@
 #
 # git clone https://github.com/hyunsoo77/demo.git
 # cd demo
-# python_plot.py --xlabel xx --ylabel yy --title title --figsize_y 5 heatmap table_mtx.txt table_mtx_heatmap.pdf
-# python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors table_row_colors.txt --fname_col_colors table_col_colors.txt clustermap table_mtx.txt table_mtx_clustermap.pdf
-# python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors table_row2_colors.txt --fname_col_colors table_col2_colors.txt clustermap table_mtx.txt table_mtx_clustermap.pdf
+# python_plot.py --xlabel xx --ylabel yy --title title --figsize_y 5 heatmap input/table_mtx.txt output/table_mtx_heatmap.pdf
+# acroread table_mtx_clustermap.pdf
+#
+# python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors input/table_row_colors.txt --fname_col_colors input/table_col_colors.txt clustermap input/table_mtx.txt output/table_mtx_clustermap.pdf
+# acroread table_mtx_clustermap.pdf
+#
+# python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors input/table_row2_colors.txt --fname_col_colors input/table_col2_colors.txt clustermap input/table_mtx.txt output/table_mtx_clustermap.pdf
 # acroread table_mtx_clustermap.pdf
 #
 #
