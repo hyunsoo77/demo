@@ -1,6 +1,6 @@
 # Python_plot
 
-This repository is only for reviewing the examples of code encapsulation for reproducibility.
+This repository is only for reviewing the example of code encapsulation for reproducibility.
 
 Python_plot reads a tab-delimited file to generate a heatmap. This simple script will be encapsulated into a docker image. The docker image contains other dependent software including python3. Thus, python_plot.py inside this docker image can be executed without any software version issue.
 
