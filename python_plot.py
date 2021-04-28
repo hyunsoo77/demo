@@ -58,6 +58,7 @@ from optparse import OptionParser
 from collections import namedtuple
 from collections import defaultdict
 from itertools import compress
+# comment out the following line
 #from print_log import print_log
 
 # main routine
