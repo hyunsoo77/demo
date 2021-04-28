@@ -35,7 +35,7 @@
 #
 # test:
 #
-# git clone https://hub.docker.com/hkim/demo/
+# git clone https://github.com/hyunsoo77/demo.git
 # cd demo
 # python_plot.py --xlabel xx --ylabel yy --title title --figsize_y 5 heatmap table_mtx.txt table_mtx_heatmap.pdf
 # python_plot.py --xlabel xx --ylabel yy --title title --fname_row_colors table_row_colors.txt --fname_col_colors table_col_colors.txt clustermap table_mtx.txt table_mtx_clustermap.pdf
