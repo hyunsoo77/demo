@@ -1,0 +1,4 @@
+symbol	c1
+sample1	#fd2b1a
+sample2	#ffda2f
+sample3	#ffda2f

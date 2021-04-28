@@ -1,0 +1,7 @@
+symbol	r1	r2
+sym1	#fd2b1a	#ffda2f
+sym2	#fd2b1a	#ffda2f
+sym3	#fd2b1a	#ffda2f
+sym4	#fd2b1a	#70b0de
+sym5	#ffda2f	#70b0de
+sym6	#ffda2f	#70b0de
